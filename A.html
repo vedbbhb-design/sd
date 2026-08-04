@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Website - Home</title>
+	<style>
+		body{font-family:Segoe UI, Roboto, Arial; margin:0; padding:0; background:#f7f9fc; color:#111}
+		header{background:#0b74de; color:white; padding:20px}
+		nav a{color:white; margin-right:16px; text-decoration:none; font-weight:600}
+		main{padding:24px}
+		.hero{background:white; padding:24px; border-radius:8px; box-shadow:0 2px 8px rgba(12,20,40,0.06)}
+		footer{padding:16px; text-align:center; color:#666}
+		.sitemap{margin-top:20px; background:#fff; padding:16px; border-radius:6px}
+		.sitemap ul{list-style:none; padding:0; margin:0}
+		.sitemap li{padding:6px 0}
+		.muted{color:#666}
+	</style>
+</head>
+<body>
+	<header>
+		<div style="max-width:1000px;margin:0 auto;display:flex;align-items:center;justify-content:space-between">
+			<div>
+				<h1 style="margin:0;font-size:20px">My Website</h1>
+				<div class="muted" style="font-size:12px">Simple homepage</div>
+			</div>
+			<nav>
+				<a href="#home">Home</a>
+				<a href="#sitemap">Sitemap</a>
+			</nav>
+		</div>
+	</header>
+
+	<main style="max-width:1000px;margin:20px auto">
+		<section id="home" class="hero">
+			<h2>Welcome</h2>
+			<p>This is the homepage. Use the sitemap below to navigate the site.</p>
+			<p class="muted">Created for demonstration.</p>
+		</section>
+
+		<section id="sitemap" class="sitemap">
+			<h3>Sitemap</h3>
+			<p class="muted">Quick links to the main sections and pages.</p>
+			<ul>
+				<li><a href="#home">Home</a> — The main landing section.</li>
+				<li><a href="#about">About</a> — Information about the site.</li>
+				<li><a href="#contact">Contact</a> — Contact details and form.</li>
+				<li><a href="#blog">Blog</a> — Blog listing (example).</li>
+			</ul>
+		</section>
+
+		<section id="about" style="margin-top:18px;background:#fff;padding:16px;border-radius:6px">
+			<h3>About</h3>
+			<p class="muted">A short description about this website or person.</p>
+		</section>
+
+		<section id="blog" style="margin-top:18px;background:#fff;padding:16px;border-radius:6px">
+			<h3>Blog</h3>
+			<ul>
+				<li><a href="#">Example Post 1</a></li>
+				<li><a href="#">Example Post 2</a></li>
+			</ul>
+		</section>
+
+		<section id="contact" style="margin-top:18px;background:#fff;padding:16px;border-radius:6px">
+			<h3>Contact</h3>
+			<p class="muted">Email: <a href="mailto:info@example.com">info@example.com</a></p>
+		</section>
+	</main>
+
+	<footer>
+		© "My Website" — sitemap included
+	</footer>
+</body>
+</html>
